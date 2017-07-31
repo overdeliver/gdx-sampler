@@ -19,7 +19,7 @@ class InputPollingSample : ApplicationListener {
     internal lateinit var font: BitmapFont
 
     override fun render() {
-        // clear screen.
+        // clear screen. Merging.
         Gdx.gl.glClearColor(0F, 0F, 0F, 1.0F)
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
 
